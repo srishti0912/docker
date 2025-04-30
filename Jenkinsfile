@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE_NAME = 'your-dockerhub-username/your-react-app'
+        DOCKER_IMAGE_NAME = 'srishti0902/your-react-app'
         DOCKER_IMAGE_TAG = 'latest'
-        DOCKER_CREDENTIALS_ID = 'docker-hub-creds' // Jenkins credentials ID
+        DOCKER_CREDENTIALS_ID = 'docker-credentials' // Jenkins credentials ID
     }
 
     stages {
